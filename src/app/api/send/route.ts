@@ -22,7 +22,7 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
-  resend.emails.send({
+  await resend.emails.send({
     from: "onboarding@resend.dev",
     to: "loezaali39@gmail.com",
     subject: "Aysnc Desarrollo Web y Apps",
